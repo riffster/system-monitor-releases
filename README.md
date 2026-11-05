@@ -29,7 +29,6 @@ it; remove it separately from Settings → Apps if you like.
 |---|---|
 | Ubuntu 22.04+, Debian 12+, Linux Mint 21+, Pop!_OS | `sudo apt install ./SystemMonitor_<version>_amd64.deb` |
 | Fedora 40+ | `sudo dnf install ./SystemMonitor-<version>-1.x86_64.rpm` |
-| openSUSE Tumbleweed / Leap 15.6 | `sudo zypper install ./SystemMonitor-<version>-1.x86_64.rpm` |
 
 The package installs the widget (in your app launcher as **System Monitor**), the
 `system-monitor-sensors` systemd service (enabled and started for you), and `smartmontools`
